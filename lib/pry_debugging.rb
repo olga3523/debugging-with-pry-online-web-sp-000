@@ -1,5 +1,5 @@
-def plus_two(num)
-puts"#{num}" + 2
-	num
-	binding.pry
+def plus_two(num=3)
+ num = num + 2
+ puts num
+	return num
 end
